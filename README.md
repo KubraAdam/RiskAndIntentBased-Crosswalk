@@ -82,9 +82,7 @@ RiskAndIntentBased-Crosswalk/
 
 
 
-yaml
 
-Kodu kopyala
 
 
 
@@ -114,9 +112,7 @@ data/videos/
 
 
 
-yaml
 
-Kodu kopyala
 
 
 
@@ -142,7 +138,6 @@ Windows
 
 bash
 
-Kodu kopyala
 
 .venv\\Scripts\\activate
 
@@ -150,15 +145,12 @@ Kodu kopyala
 
 bash
 
-Kodu kopyala
 
 pip install ultralytics opencv-python numpy
 
 4\. Run the system
 
 bash
-
-Kodu kopyala
 
 python src/main.py --source data/videos/v1\_basic\_crosswalk.mp4
 
