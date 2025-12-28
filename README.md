@@ -94,22 +94,31 @@ RiskAndIntentBased-Crosswalk/
 
 
 
-Due to GitHub size limitations, video files are \*\*not included\*\* in this repository.
+Due to GitHub file size limitations, the video files used in this project are **not included** in the repository.
 
+You can download all test videos from the following Google Drive folder:
 
+🔗 **Google Drive (Video Dataset):**  
+https://drive.google.com/drive/folders/1XEcluy4vAJ05E8eZavThJgCwZ_vpOTUh
 
-Download the videos from:  
+### Included video scenarios:
+- `v1_basic_crosswalk.mp4` – Standard pedestrian crossing scenario
+- `v2_waiting_pedestrian.mp4` – Pedestrians waiting at the crosswalk (LOW risk)
+- `v3_vehicle_dense.mp4` – Dense vehicle traffic near the crosswalk
+- `v4_risky_crossing.mp4` – Close pedestrian–vehicle interaction (HIGH risk)
+- `v5_different_angle_light.mp4` – Different camera angle and low-light conditions
 
-🔗 \*\*\[Google Drive link – add here]\*\*
+### After downloading:
+Place the videos under the following directory structure:
 
-
-
-After downloading, place the videos under:
-
-
-
-data/videos/
-
+```text
+data/
+└── videos/
+    ├── v1_basic_crosswalk.mp4
+    ├── v2_waiting_pedestrian.mp4
+    ├── v3_vehicle_dense.mp4
+    ├── v4_risky_crossing.mp4
+    └── v5_different_angle_light.mp4
 
 
 
