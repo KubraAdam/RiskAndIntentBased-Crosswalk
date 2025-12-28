@@ -1,0 +1,20 @@
+# Virtual env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Large videos (DO NOT PUSH)
+data/videos/*.mp4
+data/videos/*.avi
+data/videos/*.mov
+data/videos/*.mkv
+
+# Optional: keep folder visible
+!data/videos/.gitkeep
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
